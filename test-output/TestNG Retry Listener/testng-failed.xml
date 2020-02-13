@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Retry Listener]">
+  <listeners>
+    <listener class-name="testNGRetryLogic.TestNGRetryTransformer"/>
+  </listeners>
+  <test thread-count="5" name="TestNG RetryLogicTest(failed)">
+    <classes>
+      <class name="testNGRetryLogic.TestNGRetryLogicTest">
+        <methods>
+          <include name="Test4"/>
+          <include name="Test6"/>
+        </methods>
+      </class> <!-- testNGRetryLogic.TestNGRetryLogicTest -->
+    </classes>
+  </test> <!-- TestNG RetryLogicTest(failed) -->
+</suite> <!-- Failed suite [TestNG Retry Listener] -->

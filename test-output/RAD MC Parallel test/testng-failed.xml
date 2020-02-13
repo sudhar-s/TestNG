@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [RAD MC Parallel test]" parallel="methods">
+  <test thread-count="4" name="RADMCTest(failed)" parallel="methods">
+    <classes>
+      <class name="testRadMc.RadMcTest">
+        <methods>
+          <include name="Test4"/>
+          <include name="Test3"/>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- testRadMc.RadMcTest -->
+    </classes>
+  </test> <!-- RADMCTest(failed) -->
+</suite> <!-- Failed suite [RAD MC Parallel test] -->

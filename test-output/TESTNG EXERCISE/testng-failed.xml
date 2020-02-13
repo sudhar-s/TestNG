@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TESTNG EXERCISE]">
+  <test thread-count="5" name="Hands on TestNG features(failed)">
+    <classes>
+      <class name="com.test.TestNGAssertions">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TitleTest"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.test.TestNGAssertions -->
+    </classes>
+  </test> <!-- Hands on TestNG features(failed) -->
+</suite> <!-- Failed suite [TESTNG EXERCISE] -->

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <suite name="TESTNG XML file Test">
+	<test name="Hands on TestNG features">
+		<classes>
+			<class name = "com.test.TestNGAssertions"/>
+			<class name = "com.test.TestNGInvocationCount"/>
+		</classes>
+	</test>
+</suite>   -->
+
+<!-- <suite name="TESTNG Parameters Test">
+	<test name="Hands on TestNG features">
+	
+		<parameter name="url" value="https://classic.crmpro.com/index.html"/>
+		<parameter name="username" value="naveenautomation"/>
+		<parameter name="password" value="test@123"/>
+		
+		<classes>
+			<class name = "com.test.TestNGParametersTest"/>
+		</classes>
+
+	
+	</test>
+</suite>  --> 	
+
+	<suite name="TestNG Retry Listener">
+		
+		<listeners>
+			<listener class-name="testNGDataDriven.ExtentReportListener"/>
+		</listeners>
+		
+		<test name="TestNG DataDriven">
+		
+		<classes>
+			<class name = "testNGDataDriven.TestNGDataProvider"/>
+		</classes>
+
+		</test>
+		
+	</suite>
+
+
+
+
+
+
+
+  	<!-- <suite name="TestNG Retry Listener">
+		
+		<listeners>
+			<listener class-name = "testNGRetryLogic.TestNGRetryTransformer" />
+		</listeners>
+		
+		<test name="TestNG RetryLogicTest">
+		
+		<classes>
+			<class name = "testNGRetryLogic.TestNGRetryLogicTest"/>
+		</classes>
+
+		</test>
+		
+	</suite> -->
+	
+	
+  	<!-- <suite name="RAD MC Parallel test" thread-count="4" parallel="methods">
+		
+		<test name="RADMCTest">
+		
+		<classes>
+			<class name = "testRadMc.RadMcTest"/>
+		</classes>
+
+		</test>
+		
+	</suite> -->
+  	
+  	
+
+
+<!--   <test name="TestNG Hands-on">
+   
+  	<groups>
+     	<run>	
+      		<exclude name="Input field type test"/>
+      	</run>	
+    </groups> -->
+  	
+  	<!-- <classes>
+      <class name="test2.ClassOne">
+      	<methods>
+      		<exclude name="logoutCancelTest"/>
+      	</methods>
+      </class>
+      <class name="test2.ClassTwo">
+      	<methods>
+      		<exclude name="clearButtonExist"/>
+      	</methods>
+      </class>
+    </classes> -->
+    
+   
+ 
+      
+      
+      	
+      
+      
+      
+      
+      
+    
+    
+   
+    
+    

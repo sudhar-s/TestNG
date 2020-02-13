@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TESTNG Parameters Test]">
+  <test thread-count="5" name="Hands on TestNG features(failed)">
+    <parameter name="password" value="test@123"/>
+    <parameter name="url" value="https://classic.crmpro.com/index.html"/>
+    <parameter name="username" value="naveenautomation"/>
+    <classes>
+      <class name="com.test.TestNGParametersTest">
+        <methods>
+          <include name="CRMLoginTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGParametersTest -->
+    </classes>
+  </test> <!-- Hands on TestNG features(failed) -->
+</suite> <!-- Failed suite [TESTNG Parameters Test] -->
