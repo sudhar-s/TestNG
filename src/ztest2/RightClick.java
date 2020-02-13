@@ -43,13 +43,6 @@ public class RightClick
 		System.out.println("Alert msg text: "+msg2);
 		Thread.sleep(2000);
 		al2.accept();
-		
-		
-		
-		
-		
-		
-		
-	}
+		}
 
 }
